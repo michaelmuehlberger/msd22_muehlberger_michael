@@ -20,10 +20,13 @@ The game will start by giving you 7 random math problems. Each problem will have
 
 After answering all 7 problems, you will get a summary of how many problems you answered correctly and the average time of answering the questions.
 
-## AUTHOR ## 
-Michael Muehlberger
-Student of Mobile Sowftware Development at University of Applied Sciences Graz
-
 # List of all exercises #
-+ [Exercise 1](exercise1.md) 
-+ [Exercise 2](exercise2.md) 
++ [Exercise 1](exercise1.md)
++ [Exercise 2](exercise2.md)
+
+# AUTHOR #
+Michael Muehlberger
+Student of Mobile Sowftware Development at University of Applied Sciences Graz.
+Vienna / Graz, Austria 
+GitHub: <https://github.com/michaelmuehlberger>
+University: <https://www.fh-joanneum.at/>

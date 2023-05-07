@@ -26,3 +26,4 @@ Student of Mobile Sowftware Development at University of Applied Sciences Graz
 
 # List of all exercises #
 + [Exercise 1](exercise1.md) 
++ [Exercise 2](exercise2.md) 

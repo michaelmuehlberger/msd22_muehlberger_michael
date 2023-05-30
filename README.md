@@ -23,6 +23,8 @@ After answering all 7 problems, you will get a summary of how many problems you 
 # List of all exercises #
 + [Exercise 1](exercise1.md)
 + [Exercise 2](exercise2.md)
++ [Exercise 3](exercise3.md)
++ [Exercise 4](exercise4.md)
 
 # AUTHOR #
 Michael Muehlberger

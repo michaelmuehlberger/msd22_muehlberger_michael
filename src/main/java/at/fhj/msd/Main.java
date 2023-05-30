@@ -6,8 +6,8 @@ public class Main {
 
         Calculator calculator = new Calculator();
 
-        double number1 = 2.0;
-        double number2 = 4.0;
+        double number1 = 5.0;
+        double number2 = 0.0;
 
         //+
         System.out.printf("Operation: %f + %f = ", number1, number2);

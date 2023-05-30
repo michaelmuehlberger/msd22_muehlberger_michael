@@ -15,6 +15,7 @@ public class CalculatorTest {
         calc = new Calculator();
     }
 
+    //Test add()
     @DisplayName("Test1 of add() method")
     @Test
     void testAdd1(){
@@ -36,6 +37,7 @@ public class CalculatorTest {
         assertEquals(19,result);
     }
 
+    //Test minus()
     @DisplayName("Test1 of minus() method")
     @Test
     void testMinus1(){
@@ -57,6 +59,7 @@ public class CalculatorTest {
         assertEquals(-1,result);
     }
 
+    //Test multiply()
     @DisplayName("Test1 of multiply() method")
     @Test
     void testMultiply1(){
@@ -78,6 +81,7 @@ public class CalculatorTest {
         assertEquals(-12,result);
     }
 
+    //Test divide()
     @DisplayName("Test1 of divide() method")
     @Test
     void testDivide1(){
@@ -99,4 +103,35 @@ public class CalculatorTest {
             double result = calc.divide(5,0);
         });
     }
+
+    //Test faculty()
+
+    @DisplayName("Test1 of faculty() method")
+    @Test
+    void testFaculty1(){
+        int result = calc.faculty(-10);
+        assertEquals(0, result);
+    }
+
+    @DisplayName("Test2 of faculty() method")
+    @Test
+    void testFaculty2(){
+        int result = calc.faculty(0);
+        assertEquals(1, result);
+    }
+
+    @DisplayName("Test3 of faculty() method")
+    @Test
+    void testFaculty3(){
+        int result = calc.faculty(5);
+        assertEquals(120, result);
+    }
+
+    @DisplayName("Test4 of faculty() method")
+    @Test
+    void testFaculty4(){
+        int result = calc.faculty(9);
+        assertEquals(362880, result);
+    }
+
 }

@@ -20,7 +20,20 @@ public class Calculator {
     }
 
     public int faculty(int number){
-        return 0;
+
+        int faculty = 1;
+
+        if(number<0){
+            return 0;
+        } else if (number == 0) {
+            return 1;
+        }
+
+        for(int i = 1; i <= number; i++){
+            faculty = faculty * i;
+        }
+
+        return faculty;
     }
 
 

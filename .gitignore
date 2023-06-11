@@ -3,3 +3,5 @@
 .idea
 target/
 .log
+logs/
+log4j2.xml

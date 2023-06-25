@@ -26,6 +26,7 @@ After answering all 7 problems, you will get a summary of how many problems you 
 + [Exercise 3](exercise3.md)
 + [Exercise 4](exercise4.md)
 + [Exercise 5](exercise5.md)
++ [Exercise 6](exercise6.md)
 
 # List of configuration files (templates) #
 + [Exercise 5 - Config](src/main/resources/log4j2.xml.template)

@@ -1,12 +1,10 @@
-z<project name="Drinks Documentation Demo">
+<project name="Exercise 6">
 	<publishDate position="right"/>
 	<version position="left"/>
 	<body>
 
 		<menu name="Overview">
-			<item name="Introduction" href="index.html" />
-			<item name="Test" href="test.html" />
-			<item name="Drinks" href="drinks.html" />
+			<item name="Good Style" href="good_style.html" />
 		</menu>
 		<menu ref="reports" />
 
